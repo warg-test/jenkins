@@ -1,2 +1,2 @@
 #!/bin/bash
-cp index.html /home/devops/jenkis
+cp index.html /usr/share/nginx/html
