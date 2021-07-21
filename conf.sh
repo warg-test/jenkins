@@ -1,2 +1,2 @@
 #!/bin/bash
-cp index.html /home/devops
+cp index.html /home/devops/jenkis
