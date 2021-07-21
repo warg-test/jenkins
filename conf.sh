@@ -1,2 +1,2 @@
 #!/bin/bash
-cp index.html /etc/niginx/conf.d/
+cp index.html /home/devops
