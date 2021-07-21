@@ -3,8 +3,8 @@ pipeline {
   stages {
     stage ("Run script") {
       steps {
-        sh 'chmod +x script.sh'
-        sh './script.sh'
+        sh 'chmod +x conf.sh'
+        sh './conf.sh'
       }
     }
   }
