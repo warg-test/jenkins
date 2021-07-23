@@ -3,9 +3,9 @@ pipeline {
   stages {
     stage ("Run script") {
       steps {
+        input "Deploy to prod?"
         sh 'chmod +x conf.sh'
         sh './conf.sh'
-        input "Deploy to prod?"
       }
     }
   }
