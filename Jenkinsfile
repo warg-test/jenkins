@@ -5,11 +5,9 @@ pipeline {
       steps {
         sh 'chmod +x conf.sh'
         sh './conf.sh'
+        input "Deploy to prod?"
       }
     }
-     stage('Deploy approval'){
-    input "Deploy to prod?"
-}
   }
 }
    
